@@ -2,7 +2,7 @@ Reproducible cloud task naming bug
 
 Steps to reproduce
 
-1) Clone repository
+1) Clone repository & run 'npm install'
 2) Request the 'pipeline-test.json' file from me
 3) Save the 'pipeline-test.json' file in the util folder
 4) run firebase serve
