@@ -8,12 +8,14 @@ app.use(cors());
 
 // Test Handlers
 const {
-	manuallyCreateCloudTask
+	successfullyCreateCloudTask
+	, failToCreateCloudtask
 	, testEndpoint
 } = require('./handlers/test');
 
 // Test routes
-app.post('/manuallyCreateCloudTask', manuallyCreateCloudTask)
+app.post('/successfullyCreateCloudTask', successfullyCreateCloudTask)
+app.post('/failToCreateCloudtask', failToCreateCloudtask)
 app.post('/testEndpoint', testEndpoint)
 
 // create api
